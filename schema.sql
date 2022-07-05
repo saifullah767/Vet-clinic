@@ -1,7 +1,5 @@
 /* Database schema to keep the structure of entire database. */
 
-CREATE database vet_clinic
-
 create table animals (
     id int primary key,
     name text,
