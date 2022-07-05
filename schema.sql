@@ -1,7 +1,5 @@
 /* Database schema to keep the structure of entire database. */
 
-CREATE database vet_clinic
-
 create table animals (
     id int primary key,
     name text,
@@ -10,3 +8,7 @@ create table animals (
     neutered boolean,
     weight_kg decimal
 );
+
+-- day 2
+
+alter table animals add species varchar (50);
