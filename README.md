@@ -1,7 +1,8 @@
 # Vet_Clinic data base
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+> This project uses a relational database and PostgreSQL. The database contains a data file with animals' information, the schema needed to create the table and related queries based on the diagram below:
+
+![Diagram](/vet-clinic-erd.PNG);
 
 
 ## Getting Started
